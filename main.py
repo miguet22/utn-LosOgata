@@ -126,7 +126,7 @@ async def operations():
         for i in range (0,20) :  #para observar la calibracion
             if info == 1:
                 sal = convertir_dB (sonido.read_u16())
-                print (sonido.read_u16())
+                #print (sonido.read_u16())
                 print (f"Lectura numero {i+1}= {sal} dB")
                 
 
@@ -325,7 +325,7 @@ async def operations():
                 t.sleep(1)  # paso un segundo
                 seg += 1
                 #print (f"Promedio {prom} ---- actual [{actual [1]} - {actual[2]}]")
-                print (f"Segundos transcurridos {seg}")
+                #print (f"Segundos transcurridos {seg}")
                 
             if seg > 360:    
                 t.sleep (1)    
