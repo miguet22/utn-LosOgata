@@ -88,18 +88,21 @@ async def operations():
             print(f"Bajar el volumen a: {vol}")
         else:
             print(f"Subir el volumen a: {vol}")
-        await asyncio.sleep (2)
+        
         if volumen == 3:
             mostrar_vol(num_3)
             ant = 3
+            await asyncio.sleep (1.5)
             return normal
         elif volumen == 6:
             mostrar_vol(num_6)
             ant = 6
+            await asyncio.sleep (1.5)
             return alto
         else:
             mostrar_vol(num_8)
             ant = 8
+            await asyncio.sleep (1.5)
             return superior
 
 
@@ -159,7 +162,7 @@ async def operations():
     alto = [6,34501,36800]
     superior = [8,36801,38400]
     
-    rta = int (input ("Seleccione opcion \n1-Habitacion en silencio\n2-Biblioteca de la facu con un minimo bullicio\n>"))
+    #rta = int (input ("Seleccione opcion \n1-Habitacion en silencio\n2-Biblioteca de la facu con un minimo bullicio\n>"))
 
     
         
@@ -182,7 +185,7 @@ async def operations():
 
     t.sleep(1)
     mostrar_vol(num_0)
-    mediciones_v = []
+    
 
     print ("Primero veremos si el sensor de infrarrojo esta calibrado...")
     luz= calibrar (0,2)
@@ -321,7 +324,7 @@ async def operations():
             
                 t.sleep(1)  # paso un segundo
                 seg += 1
-                print (f"Promedio {prom} ---- actual [{actual [1]} - {actual[2]}]")
+                #print (f"Promedio {prom} ---- actual [{actual [1]} - {actual[2]}]")
                 print (f"Segundos transcurridos {seg}")
                 
             if seg > 360:    
