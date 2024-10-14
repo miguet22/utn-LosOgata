@@ -218,7 +218,7 @@ async def operations():
             rta = int (input ("Ver valores sensor de sonido? \n1- SI \n2- NO \n>" ))
             promcal= calibrar (rta,1)
             actual = normal
-            print (normal)
+            #print (normal)
             while promcal >= actual [2] or promcal <= actual [1]: #bucle se ejecuta hasta que el sensor este calibrado
                 print ("Debe calibrar de nuevo el sensor KY-037")
                 t.sleep (1)
