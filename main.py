@@ -67,7 +67,7 @@ async def operations():
         global prom
         global segcorridos, segcorridos2
         global ant
-        global normal, alto, superior, normal_2, alto_2, superior_2
+        global normal, alto, superior, normal_1, alto_1, superior_1
         segcorridos = 0
         segcorridos2 = 0
         t.sleep (3)
@@ -80,6 +80,8 @@ async def operations():
         else:
             actual1 = superior_2
         print (f"Se detectó un constante ruido durante {segundos} segundos seguidos fuera del rango de [{actual1[1]} dB - {actual1[2]} dB] ")
+        t.sleep (3)
+        print (f"Este ruido tiene un valor de: {convertir_dB (promedio)} dB \nSe toma la siguiente decision:")
         t.sleep (2)
         activado = False
         if d == "baja":
@@ -90,20 +92,15 @@ async def operations():
         if volumen == 3:
             mostrar_vol(num_3)
             ant = 3
-            await asyncio.sleep (1)
             return normal
         elif volumen == 6:
             mostrar_vol(num_6)
             ant = 6
-            await asyncio.sleep (1)
             return alto
         else:
             mostrar_vol(num_8)
             ant = 8
-            await asyncio.sleep (1)
             return superior
-        
-        
 
 
 
@@ -162,17 +159,17 @@ async def operations():
     alto = [6,34501,36800]
     superior = [8,36801,38400]
     
-   # rta = int (input ("Seleccione opcion \n1-Habitacion en silencio\n2-Biblioteca de la facu con un minimo bullicio\n>"))
+    rta = int (input ("Seleccione opcion \n1-Habitacion en silencio\n2-Biblioteca de la facu con un minimo bullicio\n>"))
 
     
         
     normal = [3,33400,34500] 
     alto = [6,34501,36800]
     superior = [8,36801,38400]
-    """if rta == 2 :
+    if rta == 2 :
         normal = [3,36200,37000] 
         alto = [6,37001,38800]
-        superior = [8,38801,4000]"""
+        superior = [8,38801,4000]
     normal_2 = [3,70,80] 
     alto_2 = [6,81,90]
     superior_2 = [8,91,98]
