@@ -169,10 +169,10 @@ async def operations():
     normal = [3,33400,34500] 
     alto = [6,34501,36800]
     superior = [8,36801,38400]
-    if rta == 2 :
+    """if rta == 2 :
         normal = [3,36200,37000] 
         alto = [6,37001,38800]
-        superior = [8,38801,4000]
+        superior = [8,38801,4000]"""
     normal_2 = [3,70,80] 
     alto_2 = [6,81,90]
     superior_2 = [8,91,98]
