@@ -38,5 +38,5 @@ Siempre que la película se pausa, las mediciones de volumen se cancelan, y una 
 
 ## **DIAGRAMA DEL CIRCUITO**
 
-![alt text](https://github.com/miguet22/utn-LosOgata/blob/main/LosOgata_DiagramaLab.jpg?raw=true)
+![alt text](https://github.com/miguet22/utn-LosOgata/blob/main/docs/LosOgata_DiagramaLab.jpg)
 
