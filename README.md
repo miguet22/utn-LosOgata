@@ -6,11 +6,12 @@
 + Medina, Mariano.
 + Tourn, Miguel.
 
+**AÑO 2024**
 
 **Escenario**
 
 Suponga que usted tiene un cine en casa y desea automatizar algunas funciones del mismo, para eso, se plantea la necesidad de un controlador tanto de volumen como de luces de la sala.
-Al estar siendo reproducida la película, las voces de los espectadores deben estar calladas, por lo que no debería haber ruido de voces y las luces deberían estar apagadas, y el volumen se mantiene en un nivel normal, que es el volumen con el cual inicia una función de cine.
+Al estar siendo reproducida la película, las voces de los espectadores deben estar **calladas**, por lo que no debería haber ruido de voces y las luces deberían estar apagadas, y el volumen se mantiene en un nivel normal, que es el volumen con el cual inicia una función de cine.
 Los decibeles de las voces de los espectadores van fluctuando en ciertos rangos de decibeles, nunca van a quedar en un mismo rango, ya que el volumen de voces va subiendo y bajando respecto al tiempo que pasa.
 El controlador realiza mediciones de los decibeles de las voces de manera constante y  tomando decisiones respecto del volumen de la película. Cabe destacar que la película originalmente inicia en un volumen de nivel normal.
 + Si el volumen está en un **nivel normal**, las decisiones a tomar son las siguientes.
@@ -32,8 +33,10 @@ Siempre que la película se pausa, las mediciones de volumen se cancelan, y una 
 
 > [!CAUTION]
 > **LAS EXPERIMENTACIONES DE ESTE SIMULADOR FUERON REALIZADAS DENTRO DE UNA HABITACION EN COMPLETO SILENCIO, LAS CALIBRACIONES PUEDEN VARIAR SEGUN EL ESPACIO FISICO**
-**DIAGRAMA DEL CIRCUITO**
 
-![Diagrama del circuito](https://github.com/miguet22/utn-LosOgata/blob/main/LosOgata_DiagramaLab.jpg?raw=true)
 
-**AÑO 2024**
+
+## **DIAGRAMA DEL CIRCUITO**
+
+![alt text](https://github.com/miguet22/utn-LosOgata/blob/main/LosOgata_DiagramaLab.jpg?raw=true)
+
