@@ -30,7 +30,10 @@ El controlador realiza mediciones de los decibeles de las voces de manera consta
 La otra función del controlador es la de manejar las luces de la sala, esto lo hace según las entradas de las personas a la sala de cine. Si se detecta que ingresa alguien, se debe pausar la película, encender las luces y darle diez segundos al espectador para que se acomode, para así luego reiniciar la película y apagar las luces. Cabe destacar que la puerta de entrada la sala, tiene un pequeño foco, cuando una persona entra, este foco se enciende, de esta manera el sensor detecta el encendido de esta luz.
 Siempre que la película se pausa, las mediciones de volumen se cancelan, y una vez que se vuelve a iniciar el filme, las mediciones vuelven a ser tomadas.
 
+> [!CAUTION]
+> **LAS EXPERIMENTACIONES DE ESTE SIMULADOR FUERON REALIZADAS DENTRO DE UNA HABITACION EN COMPLETO SILENCIO, LAS CALIBRACIONES PUEDEN VARIAR SEGUN EL ESPACIO FISICO**
 **DIAGRAMA DEL CIRCUITO**
-![alt text](https://github.com/miguet22/utn-LosOgata/blob/main/LosOgata_DiagramaLab.jpg?raw=true)
+
+![Diagrama del circuito](https://github.com/miguet22/utn-LosOgata/blob/main/LosOgata_DiagramaLab.jpg?raw=true)
 
 **AÑO 2024**
